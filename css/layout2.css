@@ -1,0 +1,42 @@
+.form-background {
+	background-color: black;
+	padding: 30px;
+}
+
+.form-white {
+	background-color: white;
+	padding: 30px;
+	width: 80%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.form-input {
+	width: 100%;
+	padding: 10px;
+	font-size: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+div,
+input,
+textarea {
+	box-sizing: border-box;
+}
+
+.w-50 {
+	width: 50%;
+	float: left;
+	padding: 10px;
+}
+
+.w-100 {
+	padding: 10px;
+}
+
+.yellow-button {
+	padding: 10px;
+	display: block;
+	margin-left: auto;
+}

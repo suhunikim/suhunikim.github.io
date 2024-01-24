@@ -1,0 +1,76 @@
+@font-face {
+	font-family : 'NanumSquareR';
+	src : url(../font/NanumSquareR.woff)
+}
+
+body {
+	font-family: 'NanumSquareR';
+	margin: 0px;
+	padding: 0px;
+}
+
+td, th {
+	/*border: 1px solid black;*/
+}
+
+.cart-table th, .cart-table td {
+	padding: 15px;
+	border-bottom: 1px solid #c2d3de;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+.cart-background {
+	width: 100%;
+	background-color: #c2d3de;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+.cart-table {
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.cart-table th:nth-child(2) {
+	width: 400px;
+}
+
+
+
+.total {
+	text-align: right;
+}
+
+.btn {
+	padding : 15px;
+	font-size : 20px;
+	border: none;
+	border-radius: 10px;
+	background-color: coral;
+	color: white;
+	cursor:pointer;
+	margin-top:15px;
+	float:right;
+}
+
+.btn:hover {
+	background-color: chocolate;
+}
+
+.btn:focus {
+	background-color:grey;
+}
+
+.btn:active {
+	background-color: brown;
+}
+
+
+
+.clear-both {
+	clear: both;
+}
